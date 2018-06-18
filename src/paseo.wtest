@@ -5,6 +5,8 @@ describe "test de una familia que NO pasea" {
 //Es a modo de ayuda, pero no es obligatorio respetar este escenario. 
 // Puede modificarse tanto como sea necesario.
 
+//TODO: Los elementos izquierda y derecha no deberian ser instancia de prenda, ya que prenda tiene
+//otras cosas, como el talle, que no son tenidos en cuenta.
 	var mediaIzquierda = new Prenda(desgaste = 1, talle = s, comodidad = 2, abrigo = 4) //elemento de par
 	var mediaDerecha = new Prenda (desgaste = 3, talle = s, comodidad = 2, abrigo = 4)
 	
